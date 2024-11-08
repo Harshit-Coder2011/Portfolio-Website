@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Harshit's Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script src="https://kit.fontawesome.com/a9ef3098b9.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div id="header">
+    <div class="container">
+      <nav>
+        <img src="assets/image-removebg-preview.png" class="logo" alt="">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact Me</a></li>
+        </ul>
+      </nav>
+      <div class="header-text">
+        <p>WEB Designer</p>
+        <h1>
+          Hi, I am <span>Harshit</span>, A <br />passionate , skilled
+          <br />Web develeoper
+        </h1>
+      </div>
+    </div>
+  </div>
+  <div id="about">
+    <div class="container">
+      <div class="row">
+        <div class="about-col-1">
+          <img src="assets/harshit.jpg" alt="" />
+        </div>
+        <div class="about-col-2">
+          <h1 class="subtitle">About Me</h1>
+          <p>
+            Harshit Gupta, a 13-year-old student, is a skilled web developer and designer. Balancing academics with a
+            passion for tech, he brings creativity and innovation to his projects, showcasing impressive design and
+            coding abilities.
+          </p>
+
+          <div class="tab-titles">
+            <p class="tab-links active-link" onclick="opentab('skills')">
+              Skills
+            </p>
+            <p class="tab-links" onclick="opentab('education')">Education</p>
+          </div>
+          <div class="tab-contents active-tab" id="skills">
+            <ul>
+              <li>
+                <span class="XD">Knows Figma</span> <br> <br> Designing Web-App Interfaces
+              </li>
+              <li>
+                <span class="XD"><br>Web-Development</span> <br> <br> Knows two work with HTML,CSS
+                and JS!<br>
+              </li>
+              <li><span class="XD"><br>Web-Designer</span> <br> <br> Using Canva since 2019<br>
+              </li>
+            </ul>
+          </div>
+
+          <div class="tab-contents" id="education">
+            <ul>
+              <li>
+                <span>2019</span> <br> <br>Started Designing for school
+                competitions and got interested<br>
+              </li>
+              <li>
+                <span><br>2020</span> <br> <br> Got to know about Websites and basic of
+                HTML<br>
+              </li>
+              <li><span><br>2021</span> <br> <br> Explored the beauty of CSS<br>
+              </li>
+              <li>
+                <span><br>2022-23</span> <br> <br> Got familiar with figma and web
+                designing<br>
+              </li>
+              <li>
+                <span><br>2023</span> <br> <br> Currently Studying in Class 9th and
+                Exploring Java Script<br>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="services">
+    <div class="container">
+      <h1 class="sub-title">My Services</h1>
+      <div class="services-list">
+        <div>
+          <i class="fa-solid fa-code"></i>
+          <h2>Web Design</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque deleniti, dolor sunt perspiciatis beatae
+            quaerat officia exercitationem maiores aspernatur placeat iure in maxime labore, quidem fugiat ullam
+            explicabo, eum praesentium.</p>
+          <a href="#">Learn More</a>
+        </div>
+        <div>
+          <i class="fa-brands fa-app-store"></i>
+          <h2>App Design</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque deleniti, dolor sunt perspiciatis beatae
+            quaerat officia exercitationem maiores aspernatur placeat iure in maxime labore, quidem fugiat ullam
+            explicabo, eum praesentium.</p>
+          <a href="#">Learn More</a>
+        </div>
+        <div>
+          <i class="fa-solid fa-crop"></i>
+          <h2>Web Delevopment</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque deleniti, dolor sunt perspiciatis beatae
+            quaerat officia exercitationem maiores aspernatur placeat iure in maxime labore, quidem fugiat ullam
+            explicabo, eum praesentium.</p>
+          <a href="#">Learn More</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <div id="portfolio">
+    <div class="container2">
+      <h1 class="sub-title2">My Work</h1>
+      <div class="worklist">
+        <div class="work1">
+          <h1>Project 1</h1>
+          <a href="./MusicBand-main/index.html"><img src="./assets/project1.png" alt=""></a>
+        </div>
+        <div class="work1">
+          <h1>Project 2</h1>
+          <a href="./Netflix Clone/index.html"><img src="./assets/project2.png" alt=""></a>
+        </div>
+        <div class="work1">
+          <h1>Project 3</h1>
+          <a href="./Bookshelf/Bookshelf Webd Project/landing page/landing.html"><img src="./assets/poject3.png"
+              alt=""></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <div id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="contact-left">
+          <h1 class="sub-title">Contact Me<br></h1>
+          <p><i class="fa-regular fa-paper-plane"></i>harshitguptasince2011@gmail.com</p>
+          <p><i class="fa-solid fa-square-phone-flip"></i>8307106407</p>
+
+        </div>
+        <div class="contact-right">
+          <form>
+            <input type="text" name="Name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+            <button type="submit" class="btn btn2">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname) {
+      for (tablink of tablinks) {
+        tablink.classList.remove("active-link");
+      }
+      for (tabcontent of tabcontents) {
+        tabcontent.classList.remove("active-tab");
+      }
+      event.currentTarget.classList.add("active-link");
+      document.getElementById(tabname).classList.add("active-tab");
+
+    }
+  </script>
+  <footer>
+    <div class="footer-content">
+      <p>Harshit's Portfolio</p>
+    </div>
+  </footer>
+</body>
+
+</html>
