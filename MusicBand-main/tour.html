@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tour - Eclipse Echoes</title>
+    <link rel="stylesheet" href="tour.css">
+</head>
+<body>
+    <header>
+        <div class="logo"><a href="index.html">🎧Eclipse Echoes</a></div>
+        <nav>
+            <div class="toggle" onclick="toggleMenu()">&#9776;</div>
+            <ul id="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="music.html">Music</a></li>
+                <li><a href="tour.html">Tour</a></li>
+                <li><a href="lyrics.html">Lyrical Collection</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="tour">
+        <div class="overlay">
+            <h1>Upcoming Shows</h1>
+            <div class="show">
+                <div class="show-info">
+                    <h2>31 July 2024</h2>
+                    <p>XYZ Auditorium, New Delhi</p>
+                </div>
+                <button class="buy-tickets" onclick="openPopup('popup3')">Register</button>
+            </div>
+            <div class="show">
+                <div class="show-info">
+                    <h2>2 August 2024</h2>
+                    <p>ABC Convention, Noide Sector-62</p>
+                </div>
+                <button class="buy-tickets" onclick="openPopup('popup3')">Register</button>
+            </div>
+            <div class="show">
+                <div class="show-info">
+                    <h2>9 August 2024</h2>
+                    <p>VishwaBharti School, Noida</p>
+                </div>
+                <button class="buy-tickets" onclick="openPopup('popup3')">Register</button>
+            </div>
+        </div>
+        <div class="popup" id="popup1">
+            <div class="popup-content">
+                <span class="close" onclick="closePopup('popup1')">&times;</span>
+                <h2>Register for Event - 31 July 2024</h2>
+                <h3>Sorry the seats for the concert is booked. Though you may enjoy our music at music for now.</h3>
+                </form>
+            </div>
+        </div>
+    
+        <div class="popup" id="popup2">
+            <div class="popup-content">
+                <span class="close" onclick="closePopup('popup2')">&times;</span>
+                <h2>Register for Event - 2 August 2024</h2>
+                <h3>Sorry the seats for the concert is booked. Though you may enjoy our music at music for now.</h3>
+
+            </div>
+        </div>
+    
+        <div class="popup" id="popup3">
+            <div class="popup-content">
+                <span class="close" onclick="closePopup('popup3')">&times;</span>
+                <h2>Register for Event - 9 August 2024</h2>
+                <h3>Sorry the seats for the concert is booked. Though you may enjoy our music at music for now.</h3>
+
+                </form>
+            </div>
+        </div>
+    
+    
+        <script src="script.js"></script>
+    </section>
+
+    <footer>
+        <p>2024 © Eclipse Echoes. All rights reserved.</p>
+    </footer>
+</body>
+</html>

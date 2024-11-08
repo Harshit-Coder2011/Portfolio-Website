@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music - Eclipse Echoes</title>
+    <link rel="stylesheet" href="music.css">
+</head>
+<body>
+    <header>
+        <div class="logo"><a href="index.html">🎧Eclipse Echoes</a></div>
+        <nav>
+
+            <div class="toggle" onclick="toggleMenu()">&#9776;</div>
+            <ul id="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="music.html">Music</a></li>
+                <li><a href="tour.html">Tour</a></li>
+                <li><a href="lyrics.html">Lyrical Collection</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="music">
+        <h1>Our Music</h1>
+        <div class="album-section">
+            <h2>Volume 1</h2>
+            <div class="album-container">
+                <div class="album-cover">
+                    <img src="V1.png" alt="Album Cover">
+                </div>
+                <div class="tracks">
+                    <div class="track-list">
+                        <div class="track">
+                            <audio controls>
+                                <source src="1.mp3" type="audio/mpeg">
+                                Your browser does not support the audio element.
+                            </audio>
+                            <div class="track-title">Track 1 - Midnight CITY</div>
+                        </div>
+                        <!-- Track 2 -->
+                        <div class="track">
+                            <audio controls>
+                                <source src="2.mp3" type="audio/mpeg">
+                                Your browser does not support the audio element.
+                            </audio>
+                            <div class="track-title">Track 2 - Unforgettable</div>
+                        </div>
+                        <!-- Track 3 -->
+                        <div class="track">
+                            <audio controls>
+                                <source src="3.mp3" type="audio/mpeg">
+                                Your browser does not support the audio element.
+                            </audio>
+                            <div class="track-title">Track 3 - Blinding Lights</div>
+                        </div>
+                        <!-- Track 4 -->
+                        <div class="track">
+                            <audio controls>
+                                <source src="4.mp3" type="audio/mpeg">
+                                Your browser does not support the audio element.
+                            </audio>
+                            <div class="track-title">Track 4 - We will Rock you!</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Singles Section -->
+        <div class="singles-section">
+            <h2>Singles</h2>
+            <div class="single-container">
+                <!-- Single 1 -->
+                <div class="single">
+                    <div class="album-cover">
+                        <img src="s1.jpg" alt="Single Cover">
+                    </div>
+                    <div class="track">
+                        <audio controls>
+                            <source src="5.mp3" type="audio/mpeg">
+                            Your browser does not support the audio element.
+                        </audio>
+                        <div class="track-title">Single 1 - Heatwaves</div>
+                    </div>
+                </div>
+
+                <!-- Single 2 -->
+                <div class="single">
+                    <div class="album-cover">
+                        <img src="s2.jpg" alt="Single Cover">
+                    </div>
+                    <div class="track">
+                        <audio controls>
+                            <source src="6.mp3" type="audio/mpeg">
+                            Your browser does not support the audio element.
+                        </audio>
+                        <div class="track-title">Single 2 - Sunflower</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        function toggleMenu() {
+            const navLinks = document.getElementById('nav-links');
+            navLinks.style.maxHeight = navLinks.style.maxHeight === '0px' ? '300px' : '0px';
+        }
+    </script>
+        <footer>
+            <p>2024 © Eclipse Echoes. All rights reserved.</p>
+        </footer>
+</body>
+</html>
