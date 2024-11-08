@@ -1,0 +1,278 @@
+* {  
+    margin: 0;   
+    padding: 0;  
+    box-sizing: border-box; 
+}  
+
+html, body {  
+    width: 100%; 
+    scroll-behavior: smooth;
+}  
+
+header {  
+    padding: 0; 
+    text-align: center;  
+    width: 100%; 
+    font-family: "poppins";
+}  
+
+.header-top {  
+    display: flex;  
+    justify-content: center; 
+    align-items: center;   
+    width: 100%;   
+}  
+
+.logo-container {  
+    flex: 1; 
+    text-align: center; }
+
+.logo {  
+    max-height: 80px; 
+    width: auto; 
+}  
+
+.header-links {  
+    display: flex;  
+    align-items: center;  
+    margin-left: auto; 
+    font-family: "poppins";
+}  
+
+.header-links a {  
+    margin-left: 15px;  
+    text-decoration: none;  
+    color: black;  
+}  
+.header-links a.login-button {
+    color: white; 
+}
+  
+.header-links a.about-us {
+    font-weight: bold; 
+    font-size: 20px;
+    
+}
+
+.login-button {  
+    background-color: #545DAB;  
+    color: white;   
+    padding: 10px 15px;   
+    border: none;  
+    border-radius: 5px; 
+    transition: background-color 0.3s; 
+    
+}  
+
+.login-button:hover {  
+    background-color: #3c529a; 
+}  
+
+nav {  
+    background-color: #545DAB;  
+    padding: 25px 0; 
+    width: 100%; 
+}  
+
+nav ul {  
+    list-style-type: none;  
+    padding: 0;  
+    display: flex;  
+    justify-content: center;  
+    width: 100%;  
+}  
+
+nav ul li a{  
+    margin: 0 40px;  
+    color: white;  
+    font-size: 30px; 
+    font-weight: bold;
+    text-decoration: none;
+}
+
+
+.banner {  
+    display: flex;  
+    background-color: #7ED19D;  
+    padding: 40px;  
+    justify-content: space-between;  
+    align-items: center;  
+}  
+
+.book-grid {  
+    display: flex;  
+    flex-wrap: wrap;  
+    justify-content: center;  
+    gap: 15px; 
+}  
+
+.book-grid img {  
+    width: 100px; 
+    height: auto;  
+    border-radius: 10px; 
+}  
+
+.wholesale-offer {  
+    text-align: center;  
+    margin-left: 250px;
+    margin-right: 30px;
+}  
+
+.wholesale-offer h2 {  
+    font-size: 120px;  
+    color: white;
+    
+    text-align: center;
+    margin: 20px 0; 
+}  
+
+.wholesale-offer p {
+    font-size: 50px;
+    font-family: "abhaya libre";
+    background: linear-gradient(to right, white,yellow);
+    margin-top: 20px;
+}
+
+.wholesale-offer .quote-btn {  
+    background-color: #E6E861;  
+    color: black;  
+    padding: 15px 30px; 
+    text-decoration: none;  
+    font-size: 60px;  
+    border-radius: 10px; 
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}  
+
+.wholesale-info {  
+    display: flex;  
+    justify-content: center;  
+    padding: 40px;  
+}  
+
+.info-box {  
+    display: flex;
+    justify-content: center;
+    margin: 20px; /* Adjusted margin for better spacing */  
+}  
+
+.info-box img {  
+    width: 1100px; /* Adjusted icon size */  
+    height: auto;  
+}  
+
+.info-box p{
+    font-size: 20px;
+
+}
+.bulk-h2{  
+    text-align: center;  
+    font-weight: bold;
+    color: black;
+    font-size: 40px;
+    
+}  
+
+.option-grid {  
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: center; 
+    margin-right: 60px;
+}  
+
+.option-box {  
+    width: initial; 
+    margin: 10px; 
+    border: 2px solid #ccc; 
+    border-radius: 8px; 
+    padding: 20px; 
+    background-color: #f9f9f9; 
+    transition: box-shadow 0.3s; 
+    text-align: center;  
+}    
+
+.option-box:hover {  
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); 
+}  
+
+
+.quote-section {  
+    text-align: center;  
+    padding: 40px;
+    
+}  
+
+.quote-section .quote-btn {  
+    background-color: #E6E861;  
+    color: black;  
+    padding: 15px 30px; 
+    text-decoration: none;  
+    font-size: 60px; 
+    border-radius: 10px; 
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+
+
+/* Footer Section */
+.footer {  
+    display: flex;  
+    justify-content: space-between;  
+    align-items: center;  
+    padding: 20px;  
+    background-color: #ffffff; 
+}  
+
+.footer-content {  
+    display: flex;  
+    width: 100%;  
+    max-width: 1200px; 
+    margin: 0 auto;  
+}  
+
+.footer-left {  
+    flex: 1;
+    font-family: "poppins" ;  
+}  
+
+.social-icons {  
+    margin: 10px 0;  
+}  
+
+.social-icons img {  
+    width: 30px;  
+    margin-right: 10px; 
+}  
+
+.footer-right {  
+    flex: 1;  
+    text-align: right; 
+}  
+
+.footer-right h2 {  
+    font-size: 1.5rem;   
+}  
+
+.footer-right ul {  
+    list-style: none;  
+    padding: 0;  
+}  
+
+.footer-right li {  
+    margin: 15px 0; 
+    
+}  
+.footer-right li a{
+    text-decoration: none;
+    color: black;
+}
+
+.footer-image {  
+    flex: 1;  
+    text-align: right; 
+}  
+
+.footer-image img {  
+    width: 400px; 
+    height: 200px;  
+}
